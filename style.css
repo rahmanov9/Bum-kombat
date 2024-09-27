@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/bokeh-asbract-backround-merry-christmas-happy-new-year-perfect-overlays-background-133356867.jpg);
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game{
+padding: 20px;
+border-radius: 15px;
+box-shadow: 1 1 1 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 10px;
+h1{
+   color: coral;
+}
+h4{
+   color: coral;
+}
+}
+p{
+   color: coral;
+}
+#coin{
+width: 400px;
+border-radius: 50px;
+transition: 0.1s;
+&:active{
+   scale: 1.10;
+}
+}
+#buyUpgade{
+   padding: 15px;
+   border-radius: 15px;
+   background-color: crimson;
+   border: none;
+   color: antiquewhite;
+}
+#buyBoost{
+   padding: 15px;
+   border-radius: 15px;
+   background-color: crimson;
+   border: none;
+   color: antiquewhite;
+}
